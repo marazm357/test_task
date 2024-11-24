@@ -17,7 +17,7 @@ const titleProp = defineProps<{
     <main>
       <FolderTree />
     </main>
-    <button @click="$emit('select', false, true)">OK</button>
+    <button @click="$emit('select', false)">OK</button>
     <button @click="$emit('closeModal', false)">Закрыть</button>
   </div>
 </template>
